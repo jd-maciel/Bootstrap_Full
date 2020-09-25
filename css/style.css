@@ -1,0 +1,132 @@
+
+
+#cor{
+    color: rgb(255, 0, 0);
+    font-weight: bold
+}
+
+.menu{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto; 
+}
+
+
+.banner{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 250px;
+}
+
+.compra-aluga{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;    
+        
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cor-jumbo{
+    background-color: rgb(255, 255, 255);
+}
+
+.g-foto{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;  
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.casas{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 750px;     
+
+}
+
+.banner-meio{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.img-banner{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    
+    width: 600px;
+    height: 350px;
+    
+    z-index: 100;
+
+    background-image: url("../images/banner2.svg");
+}
+
+
+.imagens-quadro{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 800px;
+    
+}
+
+#posicao{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;
+
+}
+
+.divisao{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+
+    background-color: crimson;
+
+}
+
+.rodape{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;  
+
+    
+}
+
+.foto-rodape{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    
+    width: 400px;
+    height: 300px;
+    
+    z-index: 100;
+
+
+    background-image: url("../images/rodape.jpg");
+    background-repeat: no-repeat;
+}
